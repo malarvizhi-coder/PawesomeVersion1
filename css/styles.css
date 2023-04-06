@@ -1,0 +1,178 @@
+body{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+#title{
+    background-color: #9E7676;
+    color: #fff;
+}
+h1{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 1.8;
+}
+p{
+    color: grey;
+    font-weight: 500;
+}
+.row{
+    margin: auto;
+}
+.MainContent{
+    padding-top: 50px;
+}
+.navbar{
+    padding: 10px 10px 20px;
+}
+.logoHighlight{
+    font-size: 6.2rem;
+    font: 'Sofia Sans Semi Condensed';
+    font-weight:800;
+    color:#fff;
+}
+.logoHighlight1{
+    position: relative;
+    right: 25px;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font: 'Sofia Sans Semi Condensed';
+    font-weight:800;
+    color:#fff;
+    position: relative;
+    left:5px;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.nav-link{
+    color: #fff;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.pawIcon{
+    height:100px;
+    width:100px;
+    padding: 10px;
+}
+.iphoneDog{
+    transform: rotate(20deg);
+}
+.downloadButton{
+    padding: 10px 35px ;
+    margin: 5% 6% 5% 0%;
+    font-weight: 500;
+}
+.downloadIcon{
+    font-size: 1.5rem;
+    padding-right: 20px;
+}
+.gridIcons{
+    font-size: 2.2rem;
+    color: #9E7676;
+}
+#features{
+    text-align: center;
+    padding:100px 0;
+}
+.feature-container{
+    width: 70%;
+}
+.featurebox{
+    text-align: center;
+}
+.container-fluid{
+    padding: 1% 10%;
+}
+#testimonials{
+    text-align: center;
+    color:#fff;
+    background-color: #9E7676;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    width:15%;
+    border-radius: 100%;
+    margin:20px;
+}
+.card-header{
+    background-color: #9E7676;
+    color: white;
+}
+.card-button{
+    background-color: #9E7676;
+    border: none;
+}
+.card-button-border{
+    border: #9E7676 solid;
+}
+.card-button-border:hover {
+    color: #fff;
+    background-color: #9E7676;
+    border-color: #9E7676;
+}
+#press{
+    background-color: #9E7676;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.press-logo{
+    width:15%;
+    margin: 20px 30px 50px;
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.pricing-coloumn{
+    padding:3%;
+}
+#cta{
+    background-color:#9E7676;
+    padding: 2%;
+    text-align: center;
+}
+.CallToAction{
+    width: 50%;
+    margin: auto;
+}
+.ctaDescription{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 1.8;
+    color: #fff;
+}
+#footer{
+    text-align: center;
+    padding: 40px 0;
+}
+.socialMediaIcons{
+    font-size: 1.6rem;
+    margin-right: 20px;
+}
+.copyRight{
+    text-align: center;
+    padding-top: 10px;
+}
+@media (max-width:1020px){
+    #title{
+        text-align: center;
+    }
+    .iphoneDog{
+        position:static;
+        transform: rotate(0);
+    }
+    .dog.col-lg-4 {
+        text-align: center;
+    }
+}
